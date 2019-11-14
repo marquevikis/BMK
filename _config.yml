@@ -1,0 +1,62 @@
+# Site wide configuration
+
+title:            Jonathas Ribeiro
+locale:           en_US
+url:              https://jonathas.com
+
+
+# Jekyll configuration
+
+permalink:   /:categories/:title/
+markdown:    kramdown
+highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: compressed
+gems:
+  - jekyll-sitemap
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+
+# Site owner
+owner:
+  name: Jonathas Ribeiro
+  avatar: jon.jpg
+  bio: "Software Developer since 2008, fitness and open source enthusiast, Arch Linux, Debian and Manjaro user, Man Utd supporter."
+  location: "Brno, CZ"
+  email: contact@jonathas.com
+  disqus-shortname: jonribeiro
+  twitter: jonathasrr
+  facebook: jonathasrr
+  skype: jonathas_rodrigues
+  google:
+    plus: #JonathasRodrigues
+    analytics: UA-63833564-1
+    verify: 
+    ad-client: 
+    ad-slot: 
+  bing-verify: 
+  github: jonathas
+  stackoverflow: #http://stackoverflow.com/users/123456/username
+  linkedin: jonathasribeiro
+  xing: #username
+  instagram: jonathasrr
+  lastfm: jonathasrr
+  tumblr: #jonaroundtheworld
+  pinterest: #jonathasrr
+  foursquare: #jonathasrr
+  steam: #username
+  dribbble: #username
+  youtube: #jonathasrr
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
